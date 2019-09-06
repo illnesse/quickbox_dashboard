@@ -242,36 +242,36 @@ function processExists($processName, $username) {
 }
 
 $bazarr = processExists("bazarr",$username);
-$btsync = processExists("resilio-sync",rslsync);
+$btsync = processExists("resilio-sync","rslsync");
 $deluged = processExists("deluged",$username);
 $delugedweb = processExists("deluge-web",$username);
-$emby = processExists("EmbyServer",emby);
+$emby = processExists("EmbyServer","emby");
 $filebrowser = processExists("filebrowser",$username);
 $flood = processExists("flood",$username);
 $headphones = processExists("headphones",$username);
 $irssi = processExists("irssi",$username);
 $lidarr = processExists("lidarr",$username);
-$lounge = processExists("lounge",lounge);
+$lounge = processExists("lounge","lounge");
 $nzbget = processExists("nzbget",$username);
 $nzbhydra = processExists("nzbhydra",$username);
 $ombi = processExists("ombi",$username);
-$plex = processExists("Plex",plex);
-$tautulli = processExists("Tautulli",tautulli);
+$plex = processExists("Plex","plex");
+$tautulli = processExists("Tautulli","tautulli");
 $pyload = processExists("pyload",$username);
 $radarr = processExists("radarr",$username);
 $rtorrent = processExists("rtorrent",$username);
 $sabnzbd = processExists("sabnzbd",$username);
 $sickchill = processExists("sickchill",$username);
 $medusa = processExists("medusa",$username);
-$netdata = processExists("netdata",netdata);
+$netdata = processExists("netdata","netdata");
 $sonarr = processExists("nzbdrone",$username);
 $subsonic = processExists("subsonic",$username);
 $syncthing = processExists("syncthing",$username);
 $jackett = processExists("jackett",$username);
 $couchpotato = processExists("couchpotato",$username);
 $quassel = processExists("quassel",$username);
-$shellinabox = processExists("shellinabox",shellinabox);
-$csf = processExists("lfd",root);
+$shellinabox = processExists("shellinabox","shellinabox");
+$csf = processExists("lfd","root");
 $sickgear = processExists("sickgear",$username);
 $znc = processExists("znc",$username);
 
